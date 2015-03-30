@@ -3,13 +3,13 @@ This is the Stylesheet file for the Purdue IP website. The copyright for this fi
 Purdue University.
 **/
 
-/** To put multiple background in a form
-.(form name){
-    background: destination of image1, imagenae2, imag3;
-    background-repeat: no-repeat, no-repeat,repeat:
-    background-position: bottom, left, right;
+
+.secondpage{
+    background: 'belltower.jpg','purdue-ip.jpg' ;
+    background-repeat: no-repeat, no-repeat:
+    background-position: bottom, top;
 }
-**/
+
 
 /**For login page**/
 body{
