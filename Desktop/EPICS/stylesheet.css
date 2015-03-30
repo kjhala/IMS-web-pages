@@ -1,0 +1,101 @@
+/**
+This is the Stylesheet file for the Purdue IP website. The copyright for this file rests with the IMS team of
+Purdue University.
+**/
+
+/** To put multiple background in a form
+.(form name){
+    background: destination of image1, imagenae2, imag3;
+    background-repeat: no-repeat, no-repeat,repeat:
+    background-position: bottom, left, right;
+}
+**/
+
+/**For login page**/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#back{
+    position:fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+}
+
+p{
+    background : white:
+    font-size : 20px;
+    color : green;
+}
+
+.box{
+    width: 40%;
+    height: 50%;
+    border: 2px solid black;
+    background-color: white;
+    position: fixed;
+    left: 32%;
+    top: 25%;
+    font-size:70%;
+}
+
+
+#Username{
+    background-color: white;
+    position: absolute;
+    left: 25%;
+    top: 38%;
+    width: 50%;
+    height: 10%;
+    
+    opacity:1;
+}
+
+#Password{
+    background-color: white;
+    position: absolute;
+    left: 25%;
+    top: 53%;
+    width: 50%;
+    height: 10%;
+}
+
+.login{
+    background: linear-gradient (left, grey,black);
+    height: 7%;
+    width: 15%;
+    position: absolute;
+    left:43%;
+    top:70%;
+    text-align: center;
+    line-height: 2;
+    font-size: 110%;
+    border-style: groove;
+    border-width: medium;
+}
+
+#purdue-ip{
+    width:100%;
+    height: 29%;
+    position:relative;
+}
+
+.forgot_password{
+    position:absolute;
+    bottom:10%;
+    left: 15%;
+}
+
+
+.register{
+    position:absolute;
+    bottom:10%;
+    left: 70%;
+}
+
+
+/**For Page 2**/
+
